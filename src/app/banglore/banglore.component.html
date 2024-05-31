@@ -1,0 +1,51 @@
+<p>banglore works!</p>
+<hr>
+<style>
+    .h1 {
+        background-color: red;
+        color: black;
+    }
+</style>
+
+<label>Co name is :</label>{{coname}}<br>
+<label>commence year :</label>{{year}}<br>
+<label>IdIndian co: </label>{{IsIndian}}<br>
+
+<label> total turnover is: </label>{{100000+4545460}}<br>
+
+<label> total employee is :</label>{{displayData()}}<hr>
+
+<a href="http://google.com" type="button">Search engine</a>
+<hr>
+<a href={{url}}>Search engine</a><br>
+<hr>
+<a [href]="url">Search engine</a>
+
+<body>
+
+    <div>
+
+        <a [href]="ur">Shopping</a>
+    </div>
+    <div>
+        <input type="button" value="Click Here" (click)="displayMessage()" />{{number}}
+    </div>
+    <div class="hi">Lets Test simple class</div>
+
+    <div [class]="c">Lets test simple class</div>
+
+    <div [class.hi]="b">Lets test simple class</div>
+    <div [class.hello]="b">Lets test simple class</div>
+
+    <div [class]="applycss()">Lets dance</div>
+
+
+    <div [style.backgroundColor]="bg">color is red</div>    
+
+    <div [style]="bs">color is blue</div>
+
+    <div [style.font-weight]="IsBold ? 'bold' : 'normal'">Testing css class</div>
+
+    
+
+</body>

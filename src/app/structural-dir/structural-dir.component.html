@@ -1,0 +1,20 @@
+<p>structural-dir works!</p>
+<div *ngIf="exists">{{pageTitle}}</div>
+<hr>
+<button type="button" (click)="toggleExists()">Toggle Component</button>
+
+<ul *ngFor="let item of Countries">
+    <li>
+        {{item}}
+    </li>
+</ul>
+
+
+<br>
+<br>
+<div [ngSwitch]="">
+        <p *ngSwitchCase="0">You have first message</p>
+        <p *ngSwitchCase="1">You have second message</p>
+     <p *ngSwitchDefault>default executed</p>
+       
+</div>

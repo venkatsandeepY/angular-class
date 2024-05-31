@@ -1,0 +1,17 @@
+<p>resize-component works!</p>
+<style>
+.div{
+    color:aqua;
+    background-color: green;
+}
+</style>
+
+<div [style]="size">
+Hello
+</div>
+
+<input type="button" value="+" (click)="sizeIncrease()">
+<input type="button" value="-" (click)="sizeDecrease()">
+
+<app-structural-dir>
+</app-structural-dir>

@@ -1,0 +1,13 @@
+
+.hi{
+    background-color: palegoldenrod;
+    color: black;
+}
+
+.hello{
+    border: 3px solid greenyellow;
+    text-align: center;
+}
+label{
+    color: gold
+}
